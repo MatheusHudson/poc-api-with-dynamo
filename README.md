@@ -13,3 +13,7 @@ The project has the following environment variables:
 * `kafka.topic`
 * `server.kafka.bootstrap`
 * `server.schema.bootstrap`
+
+## Resources Embedded
+
+Resources needed to start the application, just start docker-compose in the folder .The kafka cluster is not included.
