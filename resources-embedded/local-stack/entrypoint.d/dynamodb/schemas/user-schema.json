@@ -1,0 +1,27 @@
+{
+  "TableName": "user-poc",
+  "AttributeDefinitions": [
+    {
+      "AttributeName": "uuid",
+      "AttributeType": "S"
+    },
+    {
+      "AttributeName": "name",
+      "AttributeType": "S"
+    }
+  ],
+  "KeySchema": [
+    {
+      "AttributeName": "uuid",
+      "KeyType": "HASH"
+    },
+    {
+      "AttributeName": "name",
+      "KeyType": "RANGE"
+    }
+  ],
+  "ProvisionedThroughput": {
+    "WriteCapacityUnits": 5,
+    "ReadCapacityUnits": 5
+  }
+}
