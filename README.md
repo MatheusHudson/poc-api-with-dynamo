@@ -1,4 +1,4 @@
-# Api and Dynamo
+# Api with Dynamo
 Simple api with dynamo that registers a user and produces a kafka topic.
 
 ## About
